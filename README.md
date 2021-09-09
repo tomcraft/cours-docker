@@ -27,6 +27,10 @@ Démarrer l'application
   docker-compose up -d
 ```
 
+## Documentation
+
+- Swagger (OpenAPI): http://localhost:8080/docs
+
 ## Log de build
 ```
 thomas@MacBook-Pro-de-Thomas docker % docker-compose build      
