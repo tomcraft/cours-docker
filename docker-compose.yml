@@ -16,11 +16,12 @@ services:
     volumes: 
       - ./app:/usr/src/app
     ports: 
-      - 8080:5000
+      - 8080:8000
     depends_on: 
       - 'db'
     environment:
       MYSQL_HOST: "db"
+      MYSQL_PORT: "3306"
       MYSQL_USER: "app"
       MYSQL_PASSWORD: "appPass"
-      MYSQL_DB: "project"
+      MYSQL_DB: "sakila"
