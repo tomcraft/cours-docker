@@ -1,7 +1,7 @@
 
 # Sakila-CRUD
 
-Sakila-CRUD est un projet projet backend python permettant des interactions simples avec [le schema Sakila](https://dev.mysql.com/doc/sakila/en/sakila-introduction.html) développé par MySQL.
+Sakila-CRUD est un projet backend python permettant des interactions simples avec [le schema Sakila](https://dev.mysql.com/doc/sakila/en/sakila-introduction.html) développé par MySQL.
 ## Prérequis
 
 - Docker
