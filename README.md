@@ -7,7 +7,7 @@ Sakila-CRUD est un projet backend python permettant des interactions simples ave
 - Docker
 - Docker-Compose
 
-## Intallation
+## Installation
 
 Clonner le projet
 
