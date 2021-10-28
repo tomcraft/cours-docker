@@ -24,3 +24,4 @@ services:
       MYSQL_USER: "app"
       MYSQL_PASSWORD: "appPass"
       MYSQL_DB: "sakila"
+      SAKILA_DEBUG: "true"

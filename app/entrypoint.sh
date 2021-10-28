@@ -9,4 +9,8 @@ done
 
 echo database found
 
-python ./main.py
+if [[ -z "${SAKILA_DEBUG}" ]]; then
+  uvicorn main:app --reload --port ${PORT}
+else
+  uvicorn main:app --port ${PORT}
+fi
