@@ -10,7 +10,7 @@ done
 echo database found
 
 if [[ -z "${SAKILA_DEBUG}" ]]; then
-  uvicorn main:app --reload --port ${PORT}
-else
-  uvicorn main:app --port ${PORT}
+  UVICORN_FLAGS="--reload"
 fi
+
+uvicorn main:app ${UVICORN_FLAGS} --host 0.0.0.0 --port ${PORT}
